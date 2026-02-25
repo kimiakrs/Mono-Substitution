@@ -16,9 +16,9 @@ The study demonstrates:
 Practical demonstration of why classical substitution ciphers are insecure
 
 [![Python](https://img.shields.io/badge/Python-3.x-blue.svg)](https://www.python.org/)
-[![Classical Cipher](https://img.shields.io/badge/Cipher-Monoalphabetic%20Substitution-red.svg)](https://en.wikipedia.org/wiki/Substitution_cipher)
+[![Classical Cipher](https://img.shields.io/badge/Cipher-Monoalphabetic%20Substitution-pink.svg)](https://en.wikipedia.org/wiki/Substitution_cipher)
 [![Cryptanalysis](https://img.shields.io/badge/Technique-Frequency%20Analysis-purple.svg)](https://en.wikipedia.org/wiki/Frequency_analysis)
-[![N-gram Analysis](https://img.shields.io/badge/Method-N--Gram%20Statistics-orange.svg)](https://en.wikipedia.org/wiki/N-gram)
+[![N-gram Analysis](https://img.shields.io/badge/Method-N--Gram%20Statistics-green.svg)](https://en.wikipedia.org/wiki/N-gram)
 [![Cryptography](https://img.shields.io/badge/Field-Cryptography-darkblue.svg)](https://en.wikipedia.org/wiki/Cryptography)
 [![Cybersecurity](https://img.shields.io/badge/Domain-Cybersecurity-critical.svg)](https://en.wikipedia.org/wiki/Computer_security)
 [![Educational Project](https://img.shields.io/badge/Purpose-Academic%20Project-lightgrey.svg)](https://en.wikipedia.org/wiki/Classical_cipher)
@@ -29,7 +29,7 @@ Practical demonstration of why classical substitution ciphers are insecure
 
 - [Project Overview](#project-overview)
 - [Theoretical Background](#theoretical-background)
-- [Phase1: Monoalphabetic Encryption & Decryption](#phase1-monoalphabetic-encryption-decryption)
+- [Phase1: Monoalphabetic Encryption & Decryption](#phase1-monoalphabetic-encryption--decryption)
 - [Phase2: Frequency Analysis Attack](#phase2-frequency-analysis-attack)
 - [Techonlogies Used](#techonlogies-used)
 - [Project Structure](#project-structure)
@@ -256,14 +256,18 @@ python3 Task2-analysis.py
 
 ## Project Structure
 
-
-Monoalphabetic-Substitution/
+```
+Mono-Substitution/
 │
 ├── Task2-mono.py              # Encryption & Decryption
 ├── Task2-analysis.py          # Frequency Analysis Attack
 ├── Report-Task2.pdf           # Full academic documentation
 └── README.md
+```
 
+ For a complete step-by-step explanation of the implementation, execution workflow, frequency analysis process, screenshots, and detailed outputs, please refer to:
+
+[Report-Task2.pdf](./Report-Task2.pdf)
 
 ### Execution Workflow
 
